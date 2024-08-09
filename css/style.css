@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --mavi: #0056ef;
+    --narinci: #508D4E;
+}
+
+.textag { color: white;}
+
+/* HEADRIN BASLANGICI */
+header {
+    background: url(../img/Observers\ Book\ of\ Wildflowers\ _\ Green\ Academia\ Aesthetic\ _\ Ground\ Ivy\ _\ Plant\ Identification.jpeg) center/cover;
+    background-attachment: fixed;
+    min-height: 100vh!important;
+   position: relative;
+
+    
+}
+.logo {
+    padding-bottom: 20px;
+}
+
+header .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+   
+}
+.navbar-toggler {
+    position: relative; 
+    z-index: 1001; 
+}
+.mynav{display: none;}
+.navbar-nav {
+    background-color: black;
+}
+
+.navbar-brand a img {
+    width: 100%;
+}
+
+.fa-bars {
+    color: white;
+
+}
+
+.custom-toggler {
+    background-color: black;
+}
+
+.navbar-collapse {
+    margin-top: 15px;
+}
+
+.nav-item a {
+    font: 15px "Poppins", sans-serif;
+    padding: 10px 24px;
+}
+
+.nav-item a:hover,
+.nav-item a#active {
+    background-color: blue;
+    color: white;
+
+}
+
+#request{
+    display: none;
+}
+
+
+.content {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    bottom: auto;
+    top: auto;
+    padding: 50px 10px; /* Adjust padding as needed */
+}
+
+.content p {
+    font: 600 16px "Poppins" sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.content h1 {
+    font: 700 2em "Poppins";
+    /* padding-bottom: 50px; */
+}
+
+.content button {
+    color: black;
+    background-color: var(--narinci);
+    font: 900 1em "Poppins";
+    padding: 20px;
+    border: 1px solid transparent;
+}
+
+.content button:hover {
+    background-color: white;
+
+}
+
+
+.row1,
+.part1 {
+    background-color: #e8f1e0;
+}
+span{background-color: #80AF81;}
+h6 {
+    font: 700 15px "Poppins", sans-serif;
+    color: #0000009E;
+    padding: 20px 0px;
+
+}
+
+article p {
+    font: 12px "Poppins", sans-serif;
+    padding: 20px 0px 10px 0px;
+}
+
+h3 {
+    font: 700 16px "Poppins", sans-serif;
+}
+
+article a {
+    font: 700 15px "Poppins", sans-serif;
+    color: #1A5319;
+}
+
+#col1 img {
+    width: 100%;
+
+}
+
+article {
+    padding: 0px 39px;
+}
+
+.title {
+    padding: 0px 30px 0 30px;
+}
+
+.title h2 {
+    font: 700 20px "Poppins", sans-serif;
+}
+
+.part1 .row1 article {
+    padding: 0px 39px;
+
+}
+
+.part1 .row1 article:last-child {
+    padding: 0px 39px 60px 39px
+
+}
+
+.row2 img {
+    width: 100%;
+    padding: 0px 0 20px 0;
+}
+
+.row2 h3 {
+    padding: 5px 0 0 0;
+}
+
+.blog {
+
+    padding: 100px 0;
+}
+.blog img{ width: 200px;}
+
+.started {
+    background-color: #508D4E;
+    padding: 80px 0px;
+    text-align: center;
+    height: 60vh;
+}
+.started article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.started img{width: 100px;}
+.started p{text-align: center; font: bold 2em;}
+.trade button {
+    color: black;
+    background-color: var(--narinci);
+    font: 700 1em "Poppins";
+    padding: 20px 50px;
+    border: 1px solid transparent;
+}
+
+.quote {
+    background: url(../img/bg-img-01.jpg) center/cover fixed;
+    min-height: 80vh;
+    position: relative;
+}
+
+.quote .overlay {
+    background: rgba(0, 0, 0, 0.7); 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .container {
+    position: relative;
+}
+
+.quote i {
+    color: yellow;
+    padding: 20px 0;
+
+}
+
+.e-fas-quote-right {
+    display: block;
+    width: 50px;
+    fill: white;
+    padding: 40px 0 0 0;
+}
+
+.quote p {
+    font: 600 18px "Poppins";
+    padding: 0px 0 20px 0;
+}
+
+.quote h5 {
+    font: 600 12px "Poppins";
+}
+
+.quote h6 {
+    font: 400 12px "Poppins";
+    color: white;
+    padding: 0 0 40px 0;
+}
+.font{font:14px "Poppins", sans-serif;
+color: #0000009E;}
+.bg{background-color: #e6f1fe;}
+
+.padding{
+    padding: 10px 0px 40px 0;
+}
+.accordion-button{
+    font: 800 15px "Poppins";
+}
+.accordion-button:active{
+   color: #0056ef;
+}
+.trade {
+    background-color: #0056ef;
+    text-align: center;
+    min-height: 90vh;
+
+}
+
+.trade h4 {
+    padding: 60px 0 0px 0;
+    font-size: 35px;
+}
+
+.trade h5 {
+    font-size: 12px;
+    padding: 20px 0 40px 0;
+}
+
+#image {
+    width: 100%;
+    padding: 50px 0;
+}
+/* FOOTERIN BASLANGICI */
+footer {
+    background: url(../img/foot.jpg) center/cover;
+    text-align: center;
+
+}
+
+footer h5 {
+    font-size: 15px;
+    padding: 30px 0px;
+}
+
+#email {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+#email::placeholder {
+    padding: 0px 10px;
+}
+
+input[type="submit"] {
+    color: black;
+    background-color: var(--narinci);
+    font: 700 1em "Poppins";
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    margin: 10px 0 50px 0;
+
+}
+
+.contact li a {
+    display: block;
+    padding: 10px 0;
+}
+
+footer p {
+    padding: 20px 0 50px 0;
+}
+
+.icons {
+    padding: 30px 0;
+}
+
+.icons i {
+    padding: 0px 5px;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8'/%3E%3C/svg%3E");
+}
+
+
+
+
+@media only screen and (min-width:900px) {
+
+.navbar-expand-lg{display: none;}
+.mynav{display: initial;}
+.menu li a {
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 14px;
+    font-family: "Poppins";
+  
+}
+.mynav .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px 0px 10px;
+}
+
+.menu {
+    display: flex;
+    order: -1;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+
+
+}
+
+    #request {
+        font: 600 16px "Poppins", sans-serif;
+        padding: 10px 20px;
+        border: 1px solid transparent;
+        display: block;
+
+    }
+
+    #request:hover {
+        background-color: var(--narinci);
+        transition: .5s;
+
+    }
+
+    .content {
+        width: 75%;
+   
+          left: -10vh;
+      
+    }
+
+    .content h1 {
+        font-size: 60px;
+    }
+
+    .row1 {
+        display: flex;
+    }
+
+    .row2 {
+        display: flex;
+    }
+
+    #first {
+        flex-direction: row-reverse;
+    }
+
+    #col article {
+
+
+        width: 80%;
+        margin-left: 5vh;
+        margin-top: 10vh;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    #col1 img {
+        min-width: 90vh;
+    }
+
+    .part1 {
+        padding: 100px 0;
+
+    }
+
+    .title h2 {
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+    h3 {
+        font: 700 29px "Poppins", sans-serif;
+    }
+
+    .row2 h3 {
+        font-size: 1.3em;
+    }
+    .started h5{
+        font-size: 1em;
+    }
+    .started h4 {
+        font: 700 45px "Poppins", sans-serif;
+    }
+
+    .started {
+        text-align: initial;
+    }
+
+    /* .quote {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    }
+
+    .quote .container svg {
+        flex-shrink: 0;
+        margin-right: 20px;
+   
+        top: -12vh;
+    }
+
+    .quote .part2 {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 0 0px 0 100px;
+    }
+
+    .quote .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        max-width: 80%;
+    } */
+
+    .quote p {
+        font: 600 25px "Poppins";
+    }
+
+    .e-fas-quote-right {
+        width: 150px;
+    }
+
+    .quote h5,
+    .quote h6 {
+        font-size: 14px;
+    }
+    .faq{
+        padding: 50px;
+    }
+    .faq h5{
+        font-size: 50px;
+    }
+    .faq .container {
+        display: flex;
+        justify-content: space-between; /* Changed to space-between for better alignment */
+        align-items: flex-start; /* Align items to the top */
+    }
+    .faq .a {
+        flex: 1; /* Allow the text section to take up remaining space */
+        max-width: 40%; /* Set a maximum width */
+    }
+    .faq .accordion {
+ 
+     padding: 30px 0;
+        flex: 1; /* Allow the accordion section to take up remaining space */
+        max-width: 55%; /* Set a maximum width */
+    }
+    .accordion-button{
+        font: 800 21px "Poppins";
+    }
+
+    .trade {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .trade .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .p1 {
+        padding: 0px 100px 0 0px;
+        text-align: initial;
+
+    }
+
+    .trade h4 {
+        font-size: 50px;
+    }
+
+    .trade h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #image {
+        height: 80vh;
+        width: 30vw;
+        object-fit: cover;
+    }
+
+
+    
+    footer .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; /* Add this to allow wrapping */
+    }
+    
+    footer .last {
+        flex: 1 100%; 
+        display: block; 
+        text-align: center; 
+    }
+    .contact li {
+        display: inline-block;
+    }
+    .contact li a {
+       padding: 0px 5px;
+    }
+    .contact{
+        align-self: center;
+    }
+    .icons{
+        align-self: center;
+    }
+    footer h5 {
+        font-size: 20px;
+        text-align: initial;
+    }
+    #email{
+        width: 400px;
+    }
+    footer form{
+        text-align: initial;
+    }
+  
+}
